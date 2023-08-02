@@ -1,0 +1,51 @@
+.custom-grid {
+    border-radius: 10px;
+    border: 1px solid rgb(30 58 138 / 0.2);
+    padding: 5px;
+  }
+  
+  .custom-grid .dx-datagrid-rowsview .dx-datagrid-content {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .custom-grid .dx-datagrid-borders > .dx-datagrid-headers {
+      border-top: 1px solid #ddd;
+      border-radius: 10px 10px 0px 0px;
+  }
+  
+  .custom-grid .dx-datagrid-borders .dx-datagrid-rowsview, .dx-datagrid-headers + .dx-datagrid-rowsview, .dx-datagrid-rowsview.dx-datagrid-after-headers {
+      border-top: none;
+      border-radius: 0px 0px 10px 10px;
+  }
+  
+  .custom-grid .dx-datagrid-pager {
+      border-top: none;
+  }
+
+  .custom-grid-notline {
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .custom-grid-notline .dx-datagrid-rowsview .dx-datagrid-content {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .custom-grid-notline .dx-datagrid-borders > .dx-datagrid-headers {
+      border-top: 1px solid #ddd;
+      border-radius: 10px 10px 0px 0px;
+  }
+  
+  .custom-grid-notline .dx-datagrid-borders .dx-datagrid-rowsview, .dx-datagrid-headers + .dx-datagrid-rowsview, .dx-datagrid-rowsview.dx-datagrid-after-headers {
+      border-top: none;
+      border-radius: 0px 0px 10px 10px;
+  }
+  
+  .custom-grid-notline .dx-datagrid-pager {
+      border-top: none;
+  }
+  
